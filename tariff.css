@@ -1,0 +1,88 @@
+
+#table{
+	padding: 50px;
+	font-size: 0px;
+	
+}
+
+.tariff {
+	width: 300px;
+	height: 500px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+header{
+	background-color: #4fa839;
+	color: #257711;
+	font-size: 30px;
+	height: 50px;
+}
+
+.price {
+	background-image: url(greenbackground.jpg);
+	background-repeat: repeat-x;
+	color: #36881e;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 0px 10px 0px;
+	
+}
+
+.description{
+	background-color: #f8f8f0;
+}
+
+#center-block {
+	background-color: #f0eed9;
+}
+
+
+.greensign:before{
+	content: url(checked.png)
+}
+
+.redsign:before{
+	content: url(unchecked.png)
+}
+
+div{
+	text-align: center;
+}
+
+p{
+	font-size: 16px;
+	padding: 10px;
+    margin: 0px;
+}
+}
+
+.peryear{
+	font-size: 12px;
+}
+
+#button{
+	width: 100px;
+	height: 35px;
+	color: #4c4c4c;
+	font-size: 18px;
+	background-color: #faba71;
+	border-radius: 3px;
+font-weight: bold;
+border: 1px solid #4c4c4c;
+margin-bottom: 20px;
+}
+
+.tariff:hover{
+	bottom: 20px;
+	right:20px;
+}
+
+.greensign {
+	margin-bottom: 20px;
+}
+.redsign {
+	margin-bottom: 20px;
+}
